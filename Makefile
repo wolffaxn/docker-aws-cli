@@ -10,7 +10,7 @@ GIT_COMMIT = $(strip $(shell git rev-parse --short HEAD))
 # get remote origin url
 GIT_URL = $(strip $(shell git config --get remote.origin.url))
 # get version
-VERSION = $(strip $(shell cat version.txt))
+VERSION = $(strip $(shell cat VERSION))
 
 .PHONY: build
 build: docker-build build_output
