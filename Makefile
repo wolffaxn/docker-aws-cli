@@ -1,7 +1,7 @@
 .PHONY: default
 default: build
 
-DOCKER_IMAGE ?= wolffaxn/docker-aws-cli
+DOCKER_IMAGE ?= wolffaxn/aws-cli
 
 # get build date
 BUILD_DATE = $(strip $(shell date -u +'%Y-%m-%dT%H:%M:%SZ'))
