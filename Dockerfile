@@ -1,4 +1,4 @@
-FROM python:3.15.0a2-slim AS base
+FROM python:3.15.0a3-slim AS base
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN set -eux \
